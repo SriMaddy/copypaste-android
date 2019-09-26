@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clip_text_size">20sp</dimen>
+    <dimen name="clip_text_timestamp_size">16sp</dimen>
+    <dimen name="padding">10dp</dimen>
+</resources>

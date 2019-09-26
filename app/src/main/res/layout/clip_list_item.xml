@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightGrey"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:id="@+id/clip_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample Clip Text"
+            android:textColor="@android:color/black"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/clip_text_size"/>
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sep 26 11:15"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/clip_text_timestamp_size"
+            android:layout_below="@+id/clip_text"
+            android:layout_marginTop="5dp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/div1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_below="@+id/main_layout"/>
+
+</RelativeLayout>
